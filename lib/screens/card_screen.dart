@@ -9,7 +9,7 @@ class CardScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Card Widget <Angel Moza>'),
+        title: const Text('Card Widget <Rosita Garcia>'),
       ),
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
@@ -20,25 +20,22 @@ class CardScreen extends StatelessWidget {
 
           // 2. Primera tarjeta de imagen con descripción
           CustomCardType2(
-            imageUrl:
-                'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80',
-            title: 'Montañas y lago al atardecer',
+            imageUrl: 'assets/playa.jpg',
+            title: 'Playa turquesa al mediodía',
           ),
           SizedBox(height: 12),
 
           // 3. Segunda tarjeta de imagen
           CustomCardType2(
-            imageUrl:
-                'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80',
-            title: 'Bosque místico en la mañana',
+            imageUrl: 'assets/valle.jpg',
+            title: 'Valle verde bajo el sol',
           ),
           SizedBox(height: 12),
 
           // 4. Tercera tarjeta de imagen
           CustomCardType2(
-            imageUrl:
-                'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&q=80',
-            title: 'Sendero natural entre los árboles',
+            imageUrl: 'assets/lago.jpg',
+            title: 'Lago entre picos nevados',
           ),
         ],
       ),

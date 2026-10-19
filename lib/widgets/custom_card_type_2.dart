@@ -20,19 +20,11 @@ class CustomCardType2 extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Image.network(
+          Image.asset(
             imageUrl,
             width: double.infinity,
             height: 210,
             fit: BoxFit.cover,
-            loadingBuilder: (context, child, loadingProgress) {
-              if (loadingProgress == null) return child;
-              return Container(
-                height: 210,
-                alignment: Alignment.center,
-                child: const CircularProgressIndicator(),
-              );
-            },
             errorBuilder: (context, error, stackTrace) {
               return Container(
                 height: 210,

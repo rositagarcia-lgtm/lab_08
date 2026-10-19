@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Lab Cards Angel Moza',
+      title: 'Lab Cards Rosita Garcia',
       theme: ThemeData(
         useMaterial3: true,
-        // Color Púrpura / Violeta elegante
-        colorSchemeSeed: const Color(0xFF6A1B9A),
+        // Color rosa
+        colorSchemeSeed: const Color(0xFFC2185B),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF6A1B9A),
+          backgroundColor: Color(0xFFC2185B),
           foregroundColor: Colors.white,
           centerTitle: false,
         ),
